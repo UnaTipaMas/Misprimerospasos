@@ -1,0 +1,29 @@
+body 
+{
+    color: #15095e;
+    text-align:left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#container
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+    width: 70%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid rgb(63, 4, 58);
+    margin: 0 auto;
+}
+#container h1
+{
+    font-size: x-large;
+}
+#cabecera
+{
+    background: cornflowerblue;
+    box-shadow: darkblue;
+    color: darkolivegreen;
+    font-weight: bold;
+    margin: 0;
+    padding: 00.5em;
+}
