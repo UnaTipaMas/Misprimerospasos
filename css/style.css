@@ -7,22 +7,24 @@ body
 #container
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(54, 128, 128);
+    color: rgba(42, 18, 180, 0.548);
     width: 70%;
     padding: 1em;
-    text-align: center;
-    border: 1px solid rgb(63, 4, 58);
+    text-align: justify;
+    border: 4px solid rgba(27, 9, 126, 0.966);
     margin: 0 auto;
 }
 #container h1
 {
+    text-align: center;
+    color: darkgrey;
     font-size: x-large;
 }
 #cabecera
 {
-    background: cornflowerblue;
-    box-shadow: darkblue;
-    color: darkolivegreen;
+    background: rgb(0,0,0);
+    box-shadow: rgb(214, 230, 0);
+    color: rgb(220, 140, 223);
     font-weight: bold;
     margin: 0;
     padding: 00.5em;
