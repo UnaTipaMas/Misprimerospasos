@@ -1,6 +1,6 @@
 body 
 {
-    color: #15095e;
+    color: #c76311;
     text-align:left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -10,14 +10,14 @@ body
     color: rgba(42, 18, 180, 0.548);
     width: 70%;
     padding: 1em;
-    text-align: justify;
+    text-align: center;
     border: 4px solid rgba(27, 9, 126, 0.966);
     margin: 0 auto;
 }
 #container h1
 {
     text-align: center;
-    color: darkgrey;
+    color: rgb(139, 23, 23);
     font-size: x-large;
 }
 #cabecera
@@ -27,5 +27,10 @@ body
     color: rgb(220, 140, 223);
     font-weight: bold;
     margin: 0;
+    font-style: italic;
     padding: 00.5em;
+}
+figure
+{
+    margin: 0%;
 }
