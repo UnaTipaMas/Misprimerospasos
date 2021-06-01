@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+        <title>Formulario<!-- El mejor formulario es el que no hay --></title>
+    </head>
+    <body>
+        <!-- <div> 
+            <input type="text"/> Esta
+        es la forma incorrecta de montar un
+        formulario </div> -->
+            <form action="url"><!-- Etiqueta semántica que nos ayuda a marcar que lo que viene a continuación es un formulario; es una buena
+            practica- El atributo de "action" nos sirve para interactuar con él y JS para poder enviar información. Incluye el empoint la URL para enviar la base de datos-->
+            <label for="nombre"><!--  -->
+                <span>¿Cuál es tu nombre?</span><!-- Nos ayuda a poner una pregunta que describe el formulario -->
+                <input type="text"  id="nombre" placeholder="Tu nombre"/><!--Esta etiqueta tiene un atributo "type" El id tiene que tener el mismo atributo que el "for". El atributo "placeholder" es un texto de ejemplo que le ayuda al usuario a rellenar formularios-->
+            </label>
+            <label for="fecha">
+                <span>¿Cuál fue la fecha de tu inscripción?</span>
+                <input type="date" name="" id="fecha"><!-- El atributo de type ahora tiene el valor de date para poder desglozar una fecha específica -->
+
+            </label>
+            <label for="horario">
+                <span>¿En qué horario estudias?</span>
+                <input type="time" name="" id="horario"><!-- El type ahora tiene un tipo espécifico que ahora marca "time" para marcar la hora -->
+            </label>
+
+            </form>
+
+    </body>
+
+</html>
